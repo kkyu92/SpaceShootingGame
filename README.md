@@ -17,30 +17,30 @@ Node.js를 이용해 실시간 서버를 구축했습니다.
 - - -
 ## 사용기술
 
-### 언어
+#### 언어
 - Php
 - JavaScript
 
-### 운영체제
+#### 운영체제
 - Linux(ubuntu)
 
-### 서버
+#### 서버
 - Apache
 
-### 데이터베이스
+#### 데이터베이스
 - MySQL
 
-### 게임엔진
+#### 게임엔진
 - Phaser3
 
-### 게임서버
+#### 게임서버
 - Node.js
 
 - - -
 ## 핵심기능
 
 ### [홈페이지 기능]  
-<img src="https://raw.githubusercontent.com/kkyu92/SpaceShootingGame/master/multiGame/public/img/homePage.gif"></img>
+<img src="https://raw.githubusercontent.com/kkyu92/SpaceShootingGame/master/multiGame/public/img/homePage.png"></img>
 #### 1. 회원가입, 로그인 
 
 - 회원 가입 양식  
@@ -58,7 +58,7 @@ Node.js를 이용해 실시간 서버를 구축했습니다.
 - 게임포인트, 아이템획득, 정확도 순위를 나타냄
 
 ### [게임 기능]  
-<img src="https://raw.githubusercontent.com/kkyu92/SpaceShootingGame/master/multiGame/public/img/game.gif"></img>
+<img src="https://raw.githubusercontent.com/kkyu92/SpaceShootingGame/master/multiGame/public/img/game.png"></img>
 #### 1. 게임설명 
 
 -  2:2 팀 대전 우주선 게임
