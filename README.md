@@ -78,3 +78,5 @@ Node.js를 이용해 실시간 서버를 구축했습니다.
 - - -
 ## 참고사항
 
+-
+- https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/
