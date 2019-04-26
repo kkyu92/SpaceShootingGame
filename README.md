@@ -83,7 +83,7 @@ Socket.io를 사용해 통신했습니다.
 6주동안 만들었습니다.
 
 ### [전체 영상] 
-- https://
+- https://youtu.be/NgTpPc5RPzc
 
 ### [참고 예제] 
 - https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/
