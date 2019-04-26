@@ -2,81 +2,88 @@
 * * *
 <p align="center">
     <img src="https://raw.githubusercontent.com/kkyu92/SpaceShootingGame/master/multiGame/public/img/phaser_background.png" alt="liveAuction logo" width="400" height="300"></p>
-<div style="text-align: center">2:2 ÆÀ ´ëÀü ¿ìÁÖ¼± °ÔÀÓÀÔ´Ï´Ù.</div>
+<div style="text-align: center">2:2 íŒ€ ëŒ€ì „ ìš°ì£¼ì„  ê²Œìž„ìž…ë‹ˆë‹¤.</div>
 
-Phaser °ÔÀÓ ¿£ÁøÀ» ÀÌ¿ëÇØ °ÔÀÓÀ» ±¸ÇöÇß½À´Ï´Ù.  
-Node.js¸¦ ÀÌ¿ëÇØ ½Ç½Ã°£ ¼­¹ö¸¦ ±¸ÃàÇß½À´Ï´Ù.
-
-- - -
-## ¸ñÂ÷
-
-- [»ç¿ë±â¼ú](#»ç¿ë±â¼ú)
-- [ÇÙ½É±â´É](#ÇÙ½É±â´É)
-- [Âü°í»çÇ×](#Âü°í»çÇ×)
+Phaser3 ê²Œìž„ ì—”ì§„ì„ ì´ìš©í•´ ê²Œìž„ì„ êµ¬í˜„í–ˆìŠµë‹ˆë‹¤.  
+Node.jsë¥¼ ì´ìš©í•´ ì„œë²„ë¥¼ êµ¬ì¶•í–ˆìŠµë‹ˆë‹¤.
+Socket.ioë¥¼ ì‚¬ìš©í•´ í†µì‹ í–ˆìŠµë‹ˆë‹¤.
 
 - - -
-## »ç¿ë±â¼ú
+## ëª©ì°¨
 
-#### ¾ð¾î
+- [ì‚¬ìš©ê¸°ìˆ ](#ì‚¬ìš©ê¸°ìˆ )
+- [í•µì‹¬ê¸°ëŠ¥](#í•µì‹¬ê¸°ëŠ¥)
+- [ì°¸ê³ ì‚¬í•­](#ì°¸ê³ ì‚¬í•­)
+
+- - -
+## ì‚¬ìš©ê¸°ìˆ 
+
+#### ì–¸ì–´
 - Php
 - JavaScript
 
-#### ¿î¿µÃ¼Á¦
+#### ìš´ì˜ì²´ì œ
 - Linux(ubuntu)
 
-#### ¼­¹ö
+#### ì„œë²„
 - Apache
 
-#### µ¥ÀÌÅÍº£ÀÌ½º
+#### ë°ì´í„°ë² ì´ìŠ¤
 - MySQL
 
 - - -
-## ÇÙ½É±â´É
+## í•µì‹¬ê¸°ëŠ¥
 
-### [È¨ÆäÀÌÁö ±â´É]  
+### [í™ˆíŽ˜ì´ì§€ ê¸°ëŠ¥]  
 <img src="https://raw.githubusercontent.com/kkyu92/SpaceShootingGame/master/multiGame/public/img/homePage.png"></img>
-#### 1. È¸¿ø°¡ÀÔ, ·Î±×ÀÎ 
+#### 1. íšŒì›ê°€ìž…, ë¡œê·¸ì¸ 
 
-- È¸¿ø °¡ÀÔ ¾ç½Ä  
-- ·Î±×ÀÎ ¼¼¼Ç »ç¿ëÇÏ¿©, »ç¿ëÀÚ Á¢¼ÓÀÌ À¯Áö   
-- ·Î±×ÀÎÀ» ÇØ¾ß °ÔÀÓÇÏ±â, ÀüÀûÈ®ÀÎ °¡´É
+- íšŒì› ê°€ìž… ì–‘ì‹  
+- ë¡œê·¸ì¸ ì„¸ì…˜ ì‚¬ìš©í•˜ì—¬, ì‚¬ìš©ìž ì ‘ì†ì´ ìœ ì§€   
+- ë¡œê·¸ì¸ì„ í•´ì•¼ ê²Œìž„í•˜ê¸°, ì „ì í™•ì¸ ê°€ëŠ¥
 
-#### 2. ÀüÀûÈ®ÀÎ 
+#### 2. ì „ì í™•ì¸ 
 
-- »ç¿ëÀÚÀÇ ÃÖ±Ù5 °ÔÀÓ ±â·Ï ºÒ·¯¿È
-- ´õº¸±â ¹öÆ°À» ÀÌ¿ëÇØ 5°ÔÀÓ ´ÜÀ§·Î ±â·ÏÀ» º¸¿©ÁÜ
+- ì‚¬ìš©ìžì˜ ìµœê·¼5 ê²Œìž„ ê¸°ë¡ ë¶ˆëŸ¬ì˜´
+- ë”ë³´ê¸° ë²„íŠ¼ì„ ì´ìš©í•´ 5ê²Œìž„ ë‹¨ìœ„ë¡œ ê¸°ë¡ì„ ë³´ì—¬ì¤Œ
 
-#### 3. ·©Å·
+#### 3. ëž­í‚¹
 
-- »ç¿ëÀÚµéÀÇ °ÔÀÓ ±â·ÏÀ» ºñ±³
-- °ÔÀÓÆ÷ÀÎÆ®, ¾ÆÀÌÅÛÈ¹µæ, Á¤È®µµ ¼øÀ§¸¦ ³ªÅ¸³¿
+- ì‚¬ìš©ìžë“¤ì˜ ê²Œìž„ ê¸°ë¡ì„ ë¹„êµ
+- ê²Œìž„í¬ì¸íŠ¸, ì•„ì´í…œíšë“, ì •í™•ë„ ìˆœìœ„ë¥¼ ë‚˜íƒ€ëƒ„
 
-### [°ÔÀÓ ±â´É]  
+### [ê²Œìž„ ê¸°ëŠ¥]  
 <img src="https://raw.githubusercontent.com/kkyu92/SpaceShootingGame/master/multiGame/public/img/game.png"></img>
-#### 1. °ÔÀÓ¼³¸í 
+#### 1. ê²Œìž„ì„¤ëª… 
 
--  2:2 ÆÀ ´ëÀü ¿ìÁÖ¼± °ÔÀÓ
-- °ÔÀÓ½Ã°£ 30ÃÊ µ¿¾È ´õ ¸¹Àº Á¡¼ö¸¦ È¹µæÇÑ ÆÀÀÌ ½Â¸®
-- ±âº» 10¹ßÀÇ ÃÑ¾ËÀ» Áö±Þ, »ç¿ëÇÒ ¶§ ¸¶´Ù °¨¼Ò
-- º°, ÃÑ¾Ë ¾ÆÀÌÅÛÀ¸·Î Á¡¼ö¸¦ È¹µæÇÒ ¼ö ÀÖÀ½
-- ÃÑ¾Ë ¾ÆÀÌÅÛÀº È¹µæÇÑ ÇÃ·¹ÀÌ¾î¿¡°Ô ÃÑ¾Ë Áö±Þ
-- ÃÑ¾Ë¿¡ ¸ÂÀº ÆÀÀÇ Á¡¼ö´Â °¨¼ÒÇÔ
+-  2:2 íŒ€ ëŒ€ì „ ìš°ì£¼ì„  ê²Œìž„
+- ê²Œìž„ì‹œê°„ 30ì´ˆ ë™ì•ˆ ë” ë§Žì€ ì ìˆ˜ë¥¼ íšë“í•œ íŒ€ì´ ìŠ¹ë¦¬
+- ê¸°ë³¸ 10ë°œì˜ ì´ì•Œì„ ì§€ê¸‰, ì‚¬ìš©í•  ë•Œ ë§ˆë‹¤ ê°ì†Œ
+- ë³„, ì´ì•Œ ì•„ì´í…œìœ¼ë¡œ ì ìˆ˜ë¥¼ íšë“í•  ìˆ˜ ìžˆìŒ
+- ì´ì•Œ ì•„ì´í…œì€ íšë“í•œ í”Œë ˆì´ì–´ì—ê²Œ ì´ì•Œ ì§€ê¸‰
+- ì´ì•Œì— ë§žì€ íŒ€ì˜ ì ìˆ˜ëŠ” ê°ì†Œí•¨
 
-#### 2. ÆÀ ¼±ÅÃ 
+#### 2. íŒ€ ì„ íƒ 
 
-- ·¹µåÆÀ°ú ºí·çÆÀÀ» ¼±ÅÃÇÒ ¼ö ÀÖÀ½
-- °¢ ÆÀº° ¸î ¸íÀÇ ÇÃ·¹ÀÌ¾î°¡ ¼±ÅÃÇß´ÂÁö ¼ýÀÚ·Î Ç¥½Ã
-- µÎ¸íÀÇ ÇÃ·¹ÀÌ¾î°¡ ¼±ÅÃÇÑ ÆÀÀº ¼±ÅÃÇÒ ¼ö ¾øÀ½
-- ³×¸íÀÇ ÇÃ·¹ÀÌ¾î ÆÀ¼±ÅÃÀÌ ³¡³ª¾ß °ÔÀÓÀÌ ½ÃÀÛµÊ
+- ë ˆë“œíŒ€ê³¼ ë¸”ë£¨íŒ€ì„ ì„ íƒí•  ìˆ˜ ìžˆìŒ
+- ê° íŒ€ë³„ ëª‡ ëª…ì˜ í”Œë ˆì´ì–´ê°€ ì„ íƒí–ˆëŠ”ì§€ ìˆ«ìžë¡œ í‘œì‹œ
+- ë‘ëª…ì˜ í”Œë ˆì´ì–´ê°€ ì„ íƒí•œ íŒ€ì€ ì„ íƒí•  ìˆ˜ ì—†ìŒ
+- ë„¤ëª…ì˜ í”Œë ˆì´ì–´ íŒ€ì„ íƒì´ ëë‚˜ì•¼ ê²Œìž„ì´ ì‹œìž‘ë¨
 
-#### 3. °ÔÀÓÁ¾·á
+#### 3. ê²Œìž„ì¢…ë£Œ
 
-- ÆÀº° Á¡¼ö¿Í ½Â¸®, ¹«½ÂºÎ, ÆÐ¹è Ç¥½Ã
-- °³ÀÎº° °ÔÀÓ±â·Ï Ç¥½Ã
-- È®ÀÎ¹öÆ°À¸·Î °ÔÀÓ ´Ù½Ã ½ÃÀÛ (ÃÊ±âÈ­)
+- íŒ€ë³„ ì ìˆ˜ì™€ ìŠ¹ë¦¬, ë¬´ìŠ¹ë¶€, íŒ¨ë°° í‘œì‹œ
+- ê°œì¸ë³„ ê²Œìž„ê¸°ë¡ í‘œì‹œ
+- í™•ì¸ë²„íŠ¼ìœ¼ë¡œ ê²Œìž„ ë‹¤ì‹œ ì‹œìž‘ (ì´ˆê¸°í™”)
 
 - - -
-## Âü°í»çÇ×
+## ì°¸ê³ ì‚¬í•­
 
--
+ê°œì¸í”„ë¡œì íŠ¸ë¡œ ì§„í–‰í•˜ì˜€ìŠµë‹ˆë‹¤.
+6ì£¼ë™ì•ˆ ë§Œë“¤ì—ˆìŠµë‹ˆë‹¤.
+
+### [ì „ì²´ ì˜ìƒ] 
+- https://
+
+### [ì°¸ê³  ì˜ˆì œ] 
 - https://gamedevacademy.org/create-a-basic-multiplayer-game-in-phaser-3-with-socket-io-part-1/
